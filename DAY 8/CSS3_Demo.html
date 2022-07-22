@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 8</title>
+    <style>
+        .container
+        {
+            height: 200px;
+            width: 200px;
+            background-color:lightseagreen;
+            border: 1px solid white;
+            margin-top: 5px;
+            transition: 2s;
+            text-align: center;
+        }
+        #box1:hover
+        {
+            background-color: darkcyan;
+            transform: translate(100px,0);
+        }
+        #box2:hover
+        {
+            background-color: darkgreen;
+            transform: rotate(45deg);
+        }
+        #box3:hover
+        {background-color: darkgoldenrod;
+            transform: rotate3d(1,10,10,360deg);
+        }
+        #box4:hover
+        {
+            background-color: lightseagreen;
+            transform: scale(2);
+        }
+        #box5:hover
+        {
+            transform: skew(20deg);
+        }
+        #box6:hover
+        {
+            border-radius: 50%;
+            background-color: darkmagenta;
+            text-align: center;
+        }
+        #box7:hover
+        {
+            background-color: blue;
+            text-shadow: 2px 2px 2px white;
+        }
+        #box8:hover
+        {
+            opacity: 0.5;
+        
+        }
+        
+        
+        #box9:hover
+        {
+            color: blanchedalmond;
+            transform: rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="box1"><h1>BOX1</h1></div>
+    <div class="container" id="box2"><h1>BOX2</h1></div>
+    <div class="container" id="box3"><h1>BOX3</h1></div>
+    <div class="container" id="box4"><h1>BOX4</h1></div>
+    <div class="container" id="box5"><h1>BOX5</h1></div>
+    <div class="container" id="box6"><h1>BOX6</h1></div>
+    <div class="container" id="box7"><h1>BOX7</h1></div>
+    <div class="container" id="box8"><h1>BOX8</h1></div>
+    <div class="container" id="box9"><h1>BOX9</h1></div>
+    
+</body>
+</html>
